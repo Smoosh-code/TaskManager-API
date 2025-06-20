@@ -20,7 +20,7 @@ public class Usuario {
     private String rol; // "especialista" o "consultante"
 
     // Relación con consultas realizadas
-    // (esto lo agregamos después si querés, por ahora nos centramos en lo básico)
+   
 
     public Usuario() {
     }
