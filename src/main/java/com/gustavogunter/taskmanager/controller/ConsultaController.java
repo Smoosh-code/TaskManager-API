@@ -51,7 +51,7 @@ public class ConsultaController {
                 .map(consultaExistente -> {
                     consultaExistente.setPregunta(consultaActualizada.getPregunta());
                     consultaExistente.setRespuesta(consultaActualizada.getRespuesta());
-                    // (opcional) actualizar fechaCreacion o usuario si querés permitirlo
+                   
                     return consultaService.save(consultaExistente);
                 })
                 .orElseThrow(() -> new RuntimeException("Consulta no encontrada con id: " + id));
