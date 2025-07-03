@@ -1,4 +1,4 @@
-package com.gustavogunter.taskmanager;
+package com.gustavogunther.taskmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

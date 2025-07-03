@@ -1,4 +1,4 @@
-package com.gustavogunter.taskmanager.exception;
+package com.gustavogunther.taskmanager.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

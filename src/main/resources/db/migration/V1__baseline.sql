@@ -1,0 +1,1 @@
+-- Baseline del esquema existente (no realiza cambios)
