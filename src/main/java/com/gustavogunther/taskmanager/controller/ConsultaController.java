@@ -52,7 +52,11 @@ public class ConsultaController {
                     consultaExistente.setPrioridad(consultaActualizada.getPrioridad());
                     consultaExistente.setUsuario(consultaActualizada.getUsuario());
                     consultaExistente.setRespuesta(consultaActualizada.getRespuesta());
+
                     // No se debería modificar fechaCreacion, ni id
+
+                   
+
                     return consultaService.save(consultaExistente);
                 })
                 .orElseThrow(() -> new RuntimeException("Consulta no encontrada con id: " + id));
