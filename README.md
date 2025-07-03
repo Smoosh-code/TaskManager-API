@@ -1,6 +1,6 @@
 # TaskManager API
 
-Gestor de microconsultas entre especialistas y usuarios. Proyecto backend en Java + Spring Boot, MySQL y Docker listo para portfolio y entrevistas técnicas.
+Gestor de microconsultas entre especialistas y usuarios. Proyecto backend en Java + Spring Boot, MySQL y Docker listo 
 
 ---
 
